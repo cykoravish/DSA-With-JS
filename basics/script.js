@@ -60,9 +60,18 @@
 // console.log(a, b);
 
 //method 3
-// a = a + b; 
+// a = a + b;
 // b = a - b;
-// a = a - b; 
+// a = a - b;
 // console.log(a, b);
 // -----------------------------------------------
 
+//7. Arithmetic operators
+// let a = 12;
+// let b = 22;
+// console.log(a / b);
+// console.log(5 / 2);
+// console.log(Math.floor(5 / 2));
+// console.log(5 % 2);
+// console.log(2 % 5);
+// -----------------------------------------------
