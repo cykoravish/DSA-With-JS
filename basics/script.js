@@ -107,4 +107,15 @@
 // let b = ++(a++); //error
 //-----------------------------------------------
 
-//11. 
+//11. Math function
+// console.log(Math.round(10.5));
+// console.log(Math.ceil(10.1));
+// console.log(Math.floor(10.1));
+// console.log(Math.trunc(10.25));
+// console.log(Math.pow(2, 5));
+// console.log(Math.sqrt(16));
+// console.log(Math.abs(-16));
+// console.log(Math.max(-16, 25, 10, 50));
+// console.log(Math.min(-16, 25, 10, 50));
+// console.log(Math.random());
+//-----------------------------------------------
