@@ -37,5 +37,11 @@
 // console.log("1" / 1);
 // -----------------------------------------------
 
-
+//5. Accept and print the answer
+// let age1 = prompt("what is your age");
+// let age2 = Number(prompt("what is your age")); //type casting or type conversion
+// console.log(typeof age1, age1);
+// console.log(typeof age2, age2);
+// console.log(typeof NaN, Number("baby"));
+// -----------------------------------------------
 
