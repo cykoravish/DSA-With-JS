@@ -119,3 +119,9 @@
 // console.log(Math.min(-16, 25, 10, 50));
 // console.log(Math.random());
 //-----------------------------------------------
+
+//12. calculate area and perimeter of rectangle
+// let a = 5;
+// let b = 7;
+// console.log(a * b);
+// console.log(2 * (a + b));
