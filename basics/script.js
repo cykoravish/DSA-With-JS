@@ -75,3 +75,15 @@
 // console.log(5 % 2);
 // console.log(2 % 5);
 // -----------------------------------------------
+
+//8. Relational operator
+// console.log(10 > 5);
+// console.log(10 >= 5);
+// console.log(10 < 7);
+// console.log(10 !== 10);
+// var a = 12; //assignment operator
+// ==
+// ===
+// -----------------------------------------------
+
+
