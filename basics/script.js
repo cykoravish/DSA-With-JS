@@ -45,3 +45,24 @@
 // console.log(typeof NaN, Number("baby"));
 // -----------------------------------------------
 
+//6. swap two variables via 3 methods
+// let a = 10;
+// let b = 20;
+// method-1
+// let c;
+// c = a;
+// a = b;
+// b = c;
+// console.log(a, b);
+
+// method 2
+// [a, b] = [b, a];
+// console.log(a, b);
+
+//method 3
+// a = a + b; 
+// b = a - b;
+// a = a - b; 
+// console.log(a, b);
+// -----------------------------------------------
+
