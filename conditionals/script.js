@@ -24,4 +24,26 @@
 // console.log(amount - Math.floor((dis * amount) / 100));
 //---------------------------------------------------
 
-//3.
+//3. unit calculator
+// up to 100 => Rs. 4/unit
+// 101 to 200 => Rs. 6/unit
+// 201 to 400 => Rs. 8/unit
+// more than 400 => Rs. 13/unit
+
+function checkUnitPrice(unit) {
+  let rs = 0;
+
+  for (let i = 1; i <= unit; i++) {
+    if (i <= 100) {
+      rs += 4;
+    } else if (i >= 101 && i <= 200) {
+      rs += 6;
+    } else if (i >= 201 && i <= 400) {
+      rs += 8;
+    } else {
+      rs += 13;
+    }
+  }
+  return rs;
+}
+console.log(checkUnitPrice(101))
