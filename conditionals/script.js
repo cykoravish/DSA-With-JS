@@ -30,20 +30,42 @@
 // 201 to 400 => Rs. 8/unit
 // more than 400 => Rs. 13/unit
 
-function checkUnitPrice(unit) {
-  let rs = 0;
+// function checkUnitPrice(unit) {
+//   let rs = 0;
 
-  for (let i = 1; i <= unit; i++) {
-    if (i <= 100) {
-      rs += 4;
-    } else if (i >= 101 && i <= 200) {
-      rs += 6;
-    } else if (i >= 201 && i <= 400) {
-      rs += 8;
-    } else {
-      rs += 13;
-    }
-  }
-  return rs;
-}
-console.log(checkUnitPrice(101))
+//   for (let i = 1; i <= unit; i++) {
+//     if (i <= 100) {
+//       rs += 4;
+//     } else if (i >= 101 && i <= 200) {
+//       rs += 6;
+//     } else if (i >= 201 && i <= 400) {
+//       rs += 8;
+//     } else {
+//       rs += 13;
+//     }
+//   }
+//   return rs;
+// }
+// console.log(checkUnitPrice(101))
+
+// solution-2
+// function checkUnitPrice(unit) {
+//   let price = 0;
+//   if (unit > 400) {
+//     price = (unit - 400) * 13;
+//     unit = 400;
+//   }
+//   if(unit > 200){
+//     price += (unit - 200) * 8;
+//     unit = 200
+//   }
+//   if(unit > 100){
+//     price += (unit - 100) * 6;
+//     unit = 100
+//   }
+//   if(unit > 0){
+//     price += unit * 4;
+//   }
+//   return price;
+// }
+// console.log(checkUnitPrice(101))
