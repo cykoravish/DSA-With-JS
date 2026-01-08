@@ -175,11 +175,25 @@
 // }
 
 // another example
-switch (true) {
-  case 1 > -1:
-    console.log("wow");
-    break;
-  case 2 > 1:
-    console.log("hehe");
-    break;
-}
+// switch (true) {
+//   case 1 > -1:
+//     console.log("wow");
+//     break;
+//   case 2 > 1:
+//     console.log("hehe");
+//     break;
+// }
+
+// another example
+// let num = 0.1 + 0.2;
+
+// switch (num) {
+//   case 0.4:
+//     console.log("hello");
+//     break;
+//   case 0.5:
+//     console.log("yellow");
+//     break;
+//   default:
+//     console.log("namaste");
+// }
