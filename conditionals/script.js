@@ -86,54 +86,52 @@
 // console.log(findDemoninations(1100));
 
 // solution-2
-
-function findDenom(num) {
-  let remaining = num;
-  if (remaining >= 500) {
-    let notes500 = Math.floor(remaining / 500);
-    console.log("notes 500: ", notes500);
-    remaining = remaining % 500;
-  }
-  if (remaining >= 200) {
-    let notes200 = Math.floor(remaining / 200);
-    console.log("notes 200: ", notes200);
-    remaining = remaining % 200;
-  }
-  if (remaining >= 100) {
-    let notes100 = Math.floor(remaining / 100);
-    console.log("notes 100: ", notes100);
-    remaining = remaining % 100;
-  }
-  if (remaining >= 50) {
-    let notes50 = Math.floor(remaining / 50);
-    console.log("notes 500: ", notes50);
-    remaining = remaining % 50;
-  }
-  if (remaining >= 20) {
-    let notes20 = Math.floor(remaining / 20);
-    console.log("notes 20: ", notes20);
-    remaining = remaining % 20;
-  }
-  if (remaining >= 10) {
-    let notes10 = Math.floor(remaining / 10);
-    console.log("notes 10: ", notes10);
-    remaining = remaining % 10;
-  }
-  if (remaining >= 5) {
-    let notes5 = Math.floor(remaining / 5);
-    console.log("notes 5: ", notes5);
-    remaining = remaining % 5;
-  }
-  if (remaining >= 2) {
-    let notes2 = Math.floor(remaining / 2);
-    console.log("notes 2: ", notes2);
-    remaining = remaining % 2;
-  }
-  if (remaining >= 1) {
-    let notes1 = Math.floor(remaining / 1);
-    console.log("notes 1: ", notes1);
-    remaining = remaining % 1;
-  }
-}
-
-findDenom(75);
+// function findDenom(num) {
+//   let remaining = num;
+//   if (remaining >= 500) {
+//     let notes500 = Math.floor(remaining / 500);
+//     console.log("notes 500: ", notes500);
+//     remaining = remaining % 500;
+//   }
+//   if (remaining >= 200) {
+//     let notes200 = Math.floor(remaining / 200);
+//     console.log("notes 200: ", notes200);
+//     remaining = remaining % 200;
+//   }
+//   if (remaining >= 100) {
+//     let notes100 = Math.floor(remaining / 100);
+//     console.log("notes 100: ", notes100);
+//     remaining = remaining % 100;
+//   }
+//   if (remaining >= 50) {
+//     let notes50 = Math.floor(remaining / 50);
+//     console.log("notes 50: ", notes50);
+//     remaining = remaining % 50;
+//   }
+//   if (remaining >= 20) {
+//     let notes20 = Math.floor(remaining / 20);
+//     console.log("notes 20: ", notes20);
+//     remaining = remaining % 20;
+//   }
+//   if (remaining >= 10) {
+//     let notes10 = Math.floor(remaining / 10);
+//     console.log("notes 10: ", notes10);
+//     remaining = remaining % 10;
+//   }
+//   if (remaining >= 5) {
+//     let notes5 = Math.floor(remaining / 5);
+//     console.log("notes 5: ", notes5);
+//     remaining = remaining % 5;
+//   }
+//   if (remaining >= 2) {
+//     let notes2 = Math.floor(remaining / 2);
+//     console.log("notes 2: ", notes2);
+//     remaining = remaining % 2;
+//   }
+//   if (remaining >= 1) {
+//     let notes1 = Math.floor(remaining / 1);
+//     console.log("notes 1: ", notes1);
+//     remaining = remaining % 1;
+//   }
+// }
+// findDenom(150);
