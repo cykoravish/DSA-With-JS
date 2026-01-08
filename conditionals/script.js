@@ -197,3 +197,18 @@
 //   default:
 //     console.log("namaste");
 // }
+//another fix example
+// let num = 0.1 + 0.2;
+// num = Number(num.toFixed(1));
+// console.log(num)
+
+// switch (num) {
+//   case 0.4:
+//     console.log("hello");
+//     break;
+//   case 0.3:
+//     console.log("yellow");
+//     break;
+//   default:
+//     console.log("namaste");
+// }
