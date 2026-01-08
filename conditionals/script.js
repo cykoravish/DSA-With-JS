@@ -139,4 +139,11 @@
 //5. ternary operator
 // 12 > 13 ? console.log("yo") : console.log("bro");
 
+// multiple ternary operator
 
+// let num = 0;
+// num > 0
+//   ? console.log("positive")
+//   : num < 0
+//   ? console.log("negative")
+//   : console.log("zero");
