@@ -135,3 +135,8 @@
 //   }
 // }
 // findDenom(150);
+
+//5. ternary operator
+// 12 > 13 ? console.log("yo") : console.log("bro");
+
+
