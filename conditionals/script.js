@@ -71,16 +71,15 @@
 // console.log(checkUnitPrice(101))
 
 // 4. INR denomination
-let rs = 850;
-
-function findDemoninations(amount) {
-  let denominations = [1, 2, 5, 10, 20, 50, 100, 200, 500];
-  let remaining;
-  let denom = [];
-  for (let i = denominations.length; i > 0; i--) {
-    if (amount > denominations[i]) {
-      denom.push(denominations[i]);
-      remaining = amount % i;
-    }
-  }
-}
+// function findDemoninations(amount) {
+//   let denominations = [1, 2, 5, 10, 20, 50, 100, 200, 500];
+//   let denom = [];
+//   for (let i = denominations.length - 1; i >= 0; i--) {
+//     while (amount >= denominations[i]) {
+//       denom.push(denominations[i]);
+//       amount = amount - denominations[i];
+//     }
+//   }
+//   return denom;
+// }
+// console.log(findDemoninations(75));
