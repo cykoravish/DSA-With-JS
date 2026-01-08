@@ -71,6 +71,7 @@
 // console.log(checkUnitPrice(101))
 
 // 4. INR denomination
+//solution one
 // function findDemoninations(amount) {
 //   let denominations = [1, 2, 5, 10, 20, 50, 100, 200, 500];
 //   let denom = [];
@@ -83,3 +84,56 @@
 //   return denom;
 // }
 // console.log(findDemoninations(75));
+
+// solution-2
+
+// function findDenom(num) {
+//   let remaining = num;
+//   if (num >= 500) {
+//     let notes500 = Math.floor(num / 500);
+//     console.log(notes500);
+//     remaining = num / 500;
+//   }
+//   if (num >= 200) {
+//     let notes200 = Math.floor(num / 200);
+//     console.log(notes200);
+//     remaining = num / 200;
+//   }
+//   if (num >= 100) {
+//     let notes100 = Math.floor(num / 100);
+//     console.log(notes100);
+//     remaining = num / 100;
+//   }
+//   if (num >= 50) {
+//     let notes50 = Math.floor(num / 50);
+//     console.log(notes50);
+//     remaining = num / 50;
+//   }
+//   if (num >= 20) {
+//     let notes20 = Math.floor(num / 20);
+//     console.log(notes20);
+//     remaining = num / 20;
+//   }
+//   if (num >= 10) {
+//     let notes10 = Math.floor(num / 10);
+//     console.log(notes10);
+//     remaining = num / 10;
+//   }
+//   if (num >= 5) {
+//     let notes5 = Math.floor(num / 5);
+//     console.log(notes5);
+//     remaining = num / 5;
+//   }
+//   if (num >= 2) {
+//     let notes2 = Math.floor(num / 2);
+//     console.log(notes2);
+//     remaining = num / 2;
+//   }
+//   if (num >= 1) {
+//     let notes1 = Math.floor(num / 1);
+//     console.log(notes1);
+//     remaining = num / 1;
+//   }
+// }
+
+// findDenom(1100)
