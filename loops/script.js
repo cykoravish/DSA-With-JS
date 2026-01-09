@@ -22,3 +22,20 @@
 //   }
 //   console.log(sum);
 // }
+
+// another solution
+var n = Number(prompt("kaha tk add karwaoge add ?"));
+
+if (isNaN(n)) {
+  console.log("invalid input");
+} else {
+  if (n > 0) {
+    var sum = 0;
+    for (var i = 1; i <= n; i++) {
+      sum = sum + i;
+    }
+    console.log(sum);
+  } else {
+    console.log("should be +ve and more than 0");
+  }
+}
