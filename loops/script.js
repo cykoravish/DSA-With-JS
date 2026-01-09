@@ -24,18 +24,23 @@
 // }
 
 // another solution
-var n = Number(prompt("kaha tk add karwaoge add ?"));
-
-if (isNaN(n)) {
-  console.log("invalid input");
-} else {
-  if (n > 0) {
-    var sum = 0;
-    for (var i = 1; i <= n; i++) {
-      sum = sum + i;
-    }
-    console.log(sum);
-  } else {
-    console.log("should be +ve and more than 0");
-  }
-}
+// var pr = prompt("kaha tk add karwaoge add ?");
+// if (pr === null) {
+//   console.log("cancelled");
+// } else {
+//   var n = Number(pr);
+//   console.log(n);
+//   if (isNaN(n)) {
+//     console.log("invalid input");
+//   } else {
+//     if (n > 0) {
+//       var sum = 0;
+//       for (var i = 1; i <= n; i++) {
+//         sum = sum + i;
+//       }
+//       console.log(sum);
+//     } else {
+//       console.log("should be +ve and more than 0");
+//     }
+//   }
+// }
