@@ -67,3 +67,12 @@
 //     }
 //   }
 // }
+
+// 3. factor of number
+var pr = prompt("find factorial");
+if (pr === null) {
+  console.log("cancelled");
+} else {
+  var n = Number(pr);
+  if(isNaN)
+}
