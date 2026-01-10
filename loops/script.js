@@ -44,3 +44,26 @@
 //     }
 //   }
 // }
+
+// 2. factorial using loop
+// var pr = prompt("find factorial");
+// if (pr === null) {
+//   console.log("cancelled");
+// } else {
+//   var n = Number(pr);
+//   if (isNaN(n)) {
+//     console.log("invalid input");
+//   } else {
+//     if (n > 0) {
+//       let facto = 1;
+//       for (var i = 2; i <= n; i++) {
+//         facto = facto * i;
+//       }
+//       console.log(facto);
+//     } else if (n === 0 || n === 1) {
+//       console.log(1);
+//     } else {
+//       console.log("should be +ve and more than 0");
+//     }
+//   }
+// }
