@@ -83,6 +83,7 @@ if (pr === null) {
           console.log(i);
         }
       }
+      console.log(n);
     } else {
       console.log("should be positive and more than 0");
     }
