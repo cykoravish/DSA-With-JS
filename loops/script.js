@@ -74,5 +74,17 @@ if (pr === null) {
   console.log("cancelled");
 } else {
   var n = Number(pr);
-  if(isNaN)
+  if (isNaN(n)) {
+    console.log("Invalid Number");
+  } else {
+    if (n > 0) {
+      for (var i = 1; i <= n; i++) {
+        if (n % i === 0) {
+          console.log(i);
+        }
+      }
+    } else {
+      console.log("should be positive and more than 0");
+    }
+  }
 }
