@@ -106,15 +106,22 @@
 // console.log(isPrime(50));
 
 //5. break and continue
-for (let i = 0; i < 5; i++) {
-  if (i == 3) {
-    break;
-  }
-  console.log(i);
-}
+// for (let i = 0; i < 5; i++) {
+//   if (i == 3) {
+//     break;
+//   }
+//   console.log(i);
+// }
 // for (let i = 0; i < 5; i++) {
 //   if (i == 3) {
 //     continue;
 //   }
 //   console.log(i);
 // }
+
+//6. while loop
+let i = 0;
+while (i <= 5) {
+  console.log(i);
+  i++;
+}
