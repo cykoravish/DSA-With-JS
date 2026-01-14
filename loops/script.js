@@ -135,3 +135,10 @@
 //   num = Math.floor(num / 10);
 // }
 // console.log(sum);
+
+//8. do while loop
+// let i = 1;
+// do {
+//   console.log("hello", i);
+//   i++;
+// } while (i <= 5);
