@@ -120,8 +120,18 @@
 // }
 
 //6. while loop
-let i = 0;
-while (i <= 5) {
-  console.log(i);
-  i++;
-}
+// let i = 0;
+// while (i <= 5) {
+//   console.log(i);
+//   i++;
+// }
+
+//7. sum of digit using while loop
+// let num = 44;
+// let sum = 0;
+// while (num > 0) {
+//   let rem = num % 10;
+//   sum += rem;
+//   num = Math.floor(num / 10);
+// }
+// console.log(sum);
