@@ -104,3 +104,17 @@
 //   return `${num} is a prime number`;
 // }
 // console.log(isPrime(50));
+
+//5. break and continue
+for (let i = 0; i < 5; i++) {
+  if (i == 3) {
+    break;
+  }
+  console.log(i);
+}
+// for (let i = 0; i < 5; i++) {
+//   if (i == 3) {
+//     continue;
+//   }
+//   console.log(i);
+// }
