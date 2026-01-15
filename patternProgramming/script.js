@@ -74,11 +74,22 @@ const prompt = require("prompt-sync")();
 // }
 
 // 7. right angle triangle pattern with alphabets
+// let n = Number(prompt("enter the number for right angle triangle"));
+// let alphabets="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+// for (let i = 0; i <= n; i++) {
+//   for (let j = 0; j <= i; j++) {
+//     process.stdout.write(String(alphabets[j] + " "));
+//   }
+//   console.log();
+// }
+
+// another method
 let n = Number(prompt("enter the number for right angle triangle"));
-let alphabets="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-for (let i = 0; i <= n; i++) {
-  for (let j = 0; j <= i; j++) {
-    process.stdout.write(String(alphabets[j] + " "));
+for (let i = 1; i <= n; i++) {
+  let ascii = 65;
+  for (let j = 1; j <= i; j++) {
+    process.stdout.write(String.fromCharCode(ascii) + " ");
+    ascii++;
   }
   console.log();
 }
