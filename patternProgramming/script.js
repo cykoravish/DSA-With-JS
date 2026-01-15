@@ -15,8 +15,15 @@ const prompt = require("prompt-sync")();
 // process.stdout.write(a)
 
 // 1. print 5 starts on different lines 
-console.log("⭐")
-console.log("⭐")
-console.log("⭐")
-console.log("⭐")
-console.log("⭐")
+// console.log("⭐")
+// console.log("⭐")
+// console.log("⭐")
+// console.log("⭐")
+// console.log("⭐")
+
+// 2. print 5 starts in same line 
+// process.stdout.write("⭐")
+// process.stdout.write("⭐")
+// process.stdout.write("⭐")
+// process.stdout.write("⭐")
+// process.stdout.write("⭐")
