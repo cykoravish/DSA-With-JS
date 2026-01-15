@@ -35,12 +35,22 @@ const prompt = require("prompt-sync")();
 // }
 
 //4. print equal rows and column on user input
-const starCount = Number(
-  prompt("enter the number of stars you wanna print in equal rows and column ?")
-);
-for (let i = 0; i < starCount; i++) {
-  for (let j = 0; j < starCount; j++) {
+// const starCount = Number(
+//   prompt("enter the number of stars you wanna print in equal rows and column ?")
+// );
+// for (let i = 0; i < starCount; i++) {
+//   for (let j = 0; j < starCount; j++) {
+//     process.stdout.write("⭐");
+//   }
+//   console.log("")
+// }
+
+//5. make right angle triangle
+let count = 5;
+for (let i = 0; i <= 5; i++) {
+  for (let j = 0; j <= 5 - count; j++) {
     process.stdout.write("⭐");
   }
-  console.log("")
+  count--;
+  console.log();
 }
