@@ -46,11 +46,20 @@ const prompt = require("prompt-sync")();
 // }
 
 //5. make right angle triangle
-let count = 5;
-for (let i = 0; i <= 5; i++) {
-  for (let j = 0; j <= 5 - count; j++) {
+// let count = 5;
+// for (let i = 0; i <= 5; i++) {
+//   for (let j = 0; j <= 5 - count; j++) {
+//     process.stdout.write("⭐");
+//   }
+//   count--;
+//   console.log();
+// }
+
+//another method for right angle triangle
+let n = Number(prompt("enter the number for right angle triangle"));
+for (let i = 1; i <= n; i++) {
+  for (let j = 1; j <= i; j++) {
     process.stdout.write("⭐");
   }
-  count--;
   console.log();
 }
