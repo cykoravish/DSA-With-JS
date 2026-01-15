@@ -29,7 +29,18 @@ const prompt = require("prompt-sync")();
 // process.stdout.write("⭐")
 
 //3. print stars on user input
-const starCount = Number(prompt("enter the number of stars you wanna print ?"));
+// const starCount = Number(prompt("enter the number of stars you wanna print ?"));
+// for (let i = 0; i < starCount; i++) {
+//   process.stdout.write("⭐");
+// }
+
+//4. print equal rows and column on user input
+const starCount = Number(
+  prompt("enter the number of stars you wanna print in equal rows and column ?")
+);
 for (let i = 0; i < starCount; i++) {
-  process.stdout.write("⭐");
+  for (let j = 0; j < starCount; j++) {
+    process.stdout.write("⭐");
+  }
+  console.log("")
 }
