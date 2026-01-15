@@ -45,7 +45,7 @@ const prompt = require("prompt-sync")();
 //   console.log("")
 // }
 
-//5. make right angle triangle
+//5. make right angle triangle with stars
 // let count = 5;
 // for (let i = 0; i <= 5; i++) {
 //   for (let j = 0; j <= 5 - count; j++) {
@@ -56,10 +56,19 @@ const prompt = require("prompt-sync")();
 // }
 
 //another method for right angle triangle
+// let n = Number(prompt("enter the number for right angle triangle"));
+// for (let i = 1; i <= n; i++) {
+//   for (let j = 1; j <= i; j++) {
+//     process.stdout.write("⭐");
+//   }
+//   console.log();
+// }
+
+// 6. right angle triangle pattern with numbers
 let n = Number(prompt("enter the number for right angle triangle"));
 for (let i = 1; i <= n; i++) {
   for (let j = 1; j <= i; j++) {
-    process.stdout.write("⭐");
+    process.stdout.write(String(j + " "));
   }
   console.log();
 }
