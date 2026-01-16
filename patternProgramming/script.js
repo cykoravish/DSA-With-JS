@@ -84,12 +84,22 @@ const prompt = require("prompt-sync")();
 // }
 
 // another method
-let n = Number(prompt("enter the number for right angle triangle"));
-for (let i = 1; i <= n; i++) {
-  let ascii = 65;
-  for (let j = 1; j <= i; j++) {
-    process.stdout.write(String.fromCharCode(ascii) + " ");
-    ascii++;
-  }
-  console.log();
-}
+// let n = Number(prompt("enter the number for right angle triangle"));
+// for (let i = 1; i <= n; i++) {
+//   let ascii = 65;
+//   for (let j = 1; j <= i; j++) {
+//     process.stdout.write(String.fromCharCode(ascii) + " ");
+//     ascii++;
+//   }
+//   console.log();
+// }
+
+//8. make inverted right angle triangle
+// let n = Number(prompt("enter your number"));
+// for (let i = 0; i < n; i++) {
+//   for(let j = n; j > i; j--){
+//     process.stdout.write("⭐")
+//   }
+//   console.log()
+// }
+
