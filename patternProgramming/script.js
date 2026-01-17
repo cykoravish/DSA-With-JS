@@ -103,3 +103,9 @@ const prompt = require("prompt-sync")();
 //   console.log()
 // }
 
+//9. print => *******
+// let stars = "";
+// for(let i = 0; i<7; i++){
+//     stars += "*"
+// }
+// console.log(stars)
