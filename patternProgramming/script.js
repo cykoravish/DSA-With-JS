@@ -133,3 +133,19 @@ const prompt = require("prompt-sync")();
 //   }
 //   console.log(stars);
 // }
+
+//12. print this right angle triangle
+// *
+// **
+// ***
+// ****
+// *****
+
+// for(let row = 0; row < 6; row++){
+//     let stars = "";
+//     for(let col = 0; col <= row; col++){
+//         stars += "*";
+//     }
+//     console.log(stars)
+// }
+
