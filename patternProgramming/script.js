@@ -149,3 +149,18 @@ const prompt = require("prompt-sync")();
 //     console.log(stars)
 // }
 
+//13. Inverted Right-Angled Triangle
+// ******
+// *****
+// ****
+// ***
+// **
+// *
+// let totalRows = 6;
+// for (let row = 0; row < totalRows; row++) {
+//   let stars = "";
+//   for (let col = totalRows; col > row; col--) {
+//     stars += "*";
+//   }
+//   console.log(stars);
+// }
