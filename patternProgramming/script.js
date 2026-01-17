@@ -109,3 +109,18 @@ const prompt = require("prompt-sync")();
 //     stars += "*"
 // }
 // console.log(stars)
+
+//10. print
+// *****
+// *****
+// *****
+// *****
+
+// for (let row = 0; row < 5; row++) {
+//   let stars = "*";
+//   for (let col = 0; col < 5; col++) {
+//     stars += "*"
+//   }
+//   console.log(stars)
+// }
+
