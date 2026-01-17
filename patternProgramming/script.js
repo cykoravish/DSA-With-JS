@@ -117,10 +117,19 @@ const prompt = require("prompt-sync")();
 // *****
 
 // for (let row = 0; row < 5; row++) {
-//   let stars = "*";
+//   let stars = "";
 //   for (let col = 0; col < 5; col++) {
 //     stars += "*"
 //   }
 //   console.log(stars)
 // }
 
+//11. Print a rectangle of 3 rows and 7 columns.
+
+// for (let row = 0; row < 3; row++) {
+//   let stars = "";
+//   for (let col = 0; col < 7; col++) {
+//     stars += "*";
+//   }
+//   console.log(stars);
+// }
