@@ -164,3 +164,53 @@ const prompt = require("prompt-sync")();
 //   }
 //   console.log(stars);
 // }
+
+//14. mirror Right-Angled Triangle
+//       *
+//      **
+//     ***
+//    ****
+//   *****
+
+// spaces = totalRows-row
+// star = row;
+// for (let row = 1; row <= 5; row++) {
+//   let line = "";
+
+//   for (let space = 1; space <= 5 - row; space++) {
+//     line += " ";
+//   }
+
+//   for (let col = 1; col <= row; col++) {
+//     line += "*";
+//   }
+//   console.log(line);
+// }
+
+//15. right angle triangle
+//     *
+//    ***
+//   *****
+//  *******
+// *********
+
+// Spaces = totalRows - row
+// Stars = 2 * row - 1
+// let totalRows = 5;
+
+// for (let row = 1; row <= totalRows; row++) {
+//   let line = "";
+
+//   // spaces
+//   for (let space = 1; space <= totalRows - row; space++) {
+//     line += " ";
+//   }
+
+//   // stars
+//   for (let star = 1; star <= 2 * row - 1; star++) {
+//     line += "*";
+//   }
+
+//   console.log(line);
+// }
+
